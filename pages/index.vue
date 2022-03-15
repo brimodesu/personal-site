@@ -1,7 +1,7 @@
 <template>
   <div class="m-auto grid justify-items-center">
     <h1
-      class="text-8xl font-major-mono-display text-gold md:-rotate-90 md:origin-[55%_275%]"
+      class="text-7xl font-major-mono-display text-gold md:-rotate-90 md:origin-[55%_275%]"
     >
       brim-0
     </h1>
