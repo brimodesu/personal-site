@@ -15,5 +15,12 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
+  components: ["~/components"],
+  buildModules: ["@nuxtjs/tailwindcss"],
+  // fontawesome: {
+  //   component: "Fa",
+  //   suffix: true,
+  //   icons: { solid: ["faHome"], brands: ["faGithub"] },
+  // },
 });

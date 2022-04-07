@@ -1,0 +1,28 @@
+[
+  {
+    "company": "teraby",
+    "period": "2017-2021",
+    "activities": [
+      "MUSICARTES - CRM para organización de gestión colectiva ",
+      "MUSICARTES - Sistema contable para organización de gestión colectiva",
+      "MEDICIN - CRM para farmacéuticas",
+      "Videojuegos promocionales",
+      "chatbots Facebook Messenger / Twitter / WhatsApp",
+      "Landing pages",
+      "Arquitectura de servidores para periódico nacional",
+      "Plataforma de votaciones para evento de premiaciones a artistas nacionales",
+      "Plataforma para concurso promocional, mundial de fútbol 2018",
+      "Productor/Plataforma de eventos virtuales para cooperativas a nivel nacional"
+    ]
+  },
+  {
+    "company": "freelance",
+    "period": "2020-2022",
+    "activities": [
+      "ISOFT - Aplicación para la venta de bienes a distribuidores de empresa de telefonía en paises de centroamerica",
+      "MUSICARTES - Desarollo/Soporte en sistema de gestion y contable",
+      "UPA - Mantenimiento en contenido en  chatbot de Facebook Messenger",
+      "IFPI Latinoamérica - Desarrollo de sitio web + Soporte en publicacion de contenido"
+    ]
+  }
+]

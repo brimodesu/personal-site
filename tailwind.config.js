@@ -13,7 +13,9 @@ module.exports = {
       },
       colors: {
         "fondo-1": "#1F1E1E",
-        gold: "#FBB500",
+        "site-gold": "#FBB500",
+        "site-gold-2": "#C28E08",
+        "site-red": "#FF0011",
       },
       transformOrigin: {
         "alias-x": "54deg",
