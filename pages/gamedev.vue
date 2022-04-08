@@ -5,6 +5,7 @@
     gAme dev <br />
     expeRience
   </h1>
+  <GameDevExperienceGames />
 </template>
 
 <script setup>
