@@ -14,22 +14,22 @@
       ></div> -->
       <div class="image-container left-[15%] md:left-[30%] w-72">
         <img
-          src="/assets/images/experience/01.png"
+          src="~/assets/images/experience/01.png"
           class="h-72 w-72 object-cover rotate-6"
           alt=""
         />
         <img
-          src="/assets/images/experience/02.png"
+          src="~/assets/images/experience/02.png"
           class="h-72 w-72 object-cover -rotate-6"
           alt=""
         />
         <img
-          src="/assets/images/experience/03.png"
+          src="~/assets/images/experience/03.png"
           class="h-72 w-72 object-cover absolute rotate-6"
           alt=""
         />
         <img
-          src="/assets/images/experience/04.png"
+          src="~/assets/images/experience/04.png"
           class="h-72 w-72 object-cover -rotate-6"
           alt=""
         />
