@@ -10,7 +10,7 @@
       {{ game.title }}
     </h2>
     <p class="w-3/5 tracking-[0.20em]">{{ game.description }}</p>
-    <img :src="`/assets/images/${game.screenshots[0]}`" />
+    <img :src="gameImage(game.screenshots[0])" />
 
     <NuxtLink :to="game.detailSite" target="_blank" class="place-self-end">
       <button
@@ -26,6 +26,14 @@ import games from "@/assets/data/games.json";
 export default {
   data() {
     return { games };
+  },
+  computed: {
+    gameImage(fileName) {
+      if (!image) {
+        return;
+      }
+      return require(`../assets/images/${fileName}`);
+    },
   },
 };
 </script>
