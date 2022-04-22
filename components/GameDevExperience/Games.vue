@@ -11,11 +11,14 @@
     </h2>
     <p class="w-3/5 tracking-[0.20em]">{{ game.description }}</p>
     <img :src="`./assets/images/${game.screenshots[0]}`" />
-    <button
-      class="h-14 w-56 border border-site-gold-2 text-site-gold-2 hover:text-site-red hover:border-site-red tracking-[0.20em] place-self-end"
+
+    <NuxtLink :to="game.detailSite" target="_blank" class="place-self-end">
+      <button
+        class="h-14 w-56 border border-site-gold-2 text-site-gold-2 hover:text-site-red hover:border-site-red tracking-[0.20em]"
+      >
+        DETAILS SITE
+      </button></NuxtLink
     >
-      DETAILS SITE
-    </button>
   </div>
 </template>
 <script>

@@ -1,0 +1,52 @@
+/* original code: https://codepen.io/amazingcss/pen/LYYWJvd */
+.middle{
+
+    top: 00%;
+    left: 00%;
+    transform: translate(-0%,-0%);
+  }
+
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* 
+.glitch::before {
+  color: white;
+  animation: glitch-effect 3s infinite;
+} */
+
+.glitch::after {
+  color: #FF0011;
+  animation: glitch-effect 5s infinite;
+}
+
+@keyframes glitch-effect {
+  0% {
+    left: -2px;
+    top: -2px;
+  }
+  25% {
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    left: -1px;
+    top: 2px;
+  }
+  75% {
+    left: 1px;
+    top: -1px;
+  }
+  100% {
+    left: 0px;
+    top: -2px;
+  }
+}

@@ -6,10 +6,11 @@ import {
   faTwitter,
   faItchIo,
   faGithub,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import FontAwesomeIcon from "@/components/FontAwesomeIcon.vue";
 
-library.add(fas, faTwitter, faInstagram, faItchIo, faGithub);
+library.add(fas, faTwitter, faInstagram, faItchIo, faGithub, faLinkedin);
 
 //App.component("fa", FontAwesomeIcon);
 

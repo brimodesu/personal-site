@@ -15,7 +15,13 @@ export default defineNuxtConfig({
       },
     ],
   },
-  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
+  css: [
+    "@fortawesome/fontawesome-svg-core/styles.css",
+    "@/assets/css/border-image.css",
+    "@/assets/css/glitch-effect.css",
+    "@/assets/css/slider.css",
+    "@/assets/css/index.css",
+  ],
   components: ["~/components"],
   buildModules: ["@nuxtjs/tailwindcss"],
 });
