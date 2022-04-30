@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <TopNavBar />
+    <TopNavBar title="brimo" color="text-site-gold-2"/>
     <NuxtPage />
     <Footer />
   </div>

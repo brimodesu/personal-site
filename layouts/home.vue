@@ -1,8 +1,8 @@
 <template>
   <div class="w-full">
-    <HomeNavBar />
+    <TopNavBar title="start" color="text-site-red" />
     <NuxtPage />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 <script>

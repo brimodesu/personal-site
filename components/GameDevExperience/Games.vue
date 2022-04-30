@@ -11,9 +11,7 @@
     </h2>
     <p class="w-3/5 tracking-[0.20em]">{{ game.description }}</p>
 
-    <img src="~/assets/images/flip-switch.png" :alt="game.title" />
-    <img :src="'assets/images/' + game.screenshots[0]" :alt="game.title" />
-    <img :src="`~/assets/images/flip-switch.png`" :alt="game.title" />
+    <img :src="game.screenshots[0]" :alt="game.title" />
 
     <NuxtLink :to="game.detailSite" target="_blank" class="place-self-end">
       <button
@@ -27,30 +25,19 @@
 <script>
 import games from "@/assets/data/games.json";
 
-const assets = import.meta.glob("../../assets/images/**");
 export default {
   data() {
     return { games };
   },
   computed: {
-    gameImage: (app) => (fileName) => {
-      if (!fileName) {
-        return;
-      }
-      console.log("a", assets);
-      console.log("a", assets["../../assets/images/flip-switch.png"]);
-      // console.log(
-      //   "meta",
-      //   import(/* @vite-ignore */ `../../assets/images/${fileName}`).default
-      // );
-
-      // let file = new URL(
-      //   `./assets/images/flip-switch`,
-      //   "http://localhost:3000/"
-      // );
-      console.log("file: ", fileName);
-
-      return assets["../../assets/images/flip-switch.png"].default;
+    gameImage: (app) => async (fileName) => {},
+  },
+  methods: {
+    gameImage2: async (fileName) => {
+      const module = await import(
+        /* @vite-ignore */ `../../assets/images/${fileName}`
+      );
+      return module;
     },
   },
 };
