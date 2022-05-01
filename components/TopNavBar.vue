@@ -1,12 +1,11 @@
 <template>
-
   <nav class="my-10 px-2 sm:px-4 py-2.5">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <NuxtLink
         to="/"
         class="font-major-mono-display text-3xl leading-normal"
         :class="color"
-        >{{title}}</NuxtLink
+        >{{ title }}</NuxtLink
       >
       <button
         data-collapse-toggle="mobile-menu"
@@ -55,6 +54,7 @@
           <li>
             <NuxtLink
               to="/gamedev"
+              activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
             >
               GAME
@@ -63,6 +63,7 @@
           <li>
             <NuxtLink
               to="/developer"
+              activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
               >DEVELOPER</NuxtLink
             >
@@ -81,9 +82,9 @@
 </template>
 <script>
 export default {
-  props:{
+  props: {
     title: String,
-    color: String
+    color: String,
   },
   data() {
     return { isActive: true };

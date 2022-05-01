@@ -1,6 +1,7 @@
 <template>
   <div class="w-full flex items-center my-10">
-    <div class="rounded-full border-2 border-site-red h-5 w-5"></div>
+    <!-- <div class="rounded-full border-2 border-site-red h-5 w-5"></div> -->
+    <Locale />
     <div class="grow border-site-gold-2 border h0 self-center mx-4"></div>
     <div class="flex space-x-5">
       <NuxtLink to="https://brimo.itch.io/" target="_blank">

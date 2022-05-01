@@ -23,5 +23,12 @@ export default defineNuxtConfig({
     "@/assets/css/index.css",
   ],
   components: ["~/components"],
-  buildModules: ["@nuxtjs/tailwindcss"],
+  plugins: [],
+  buildModules: ["@nuxtjs/tailwindcss", "@intlify/nuxt3"],
+  intlify: {
+    localeDir: "locales",
+    vueI18n: {
+      locale: "es",
+    },
+  },
 });

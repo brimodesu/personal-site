@@ -12,6 +12,4 @@ import FontAwesomeIcon from "@/components/FontAwesomeIcon.vue";
 
 library.add(fas, faTwitter, faInstagram, faItchIo, faGithub, faLinkedin);
 
-//App.component("fa", FontAwesomeIcon);
-
 export default FontAwesomeIcon;
