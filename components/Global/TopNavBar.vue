@@ -1,5 +1,5 @@
 <template>
-  <nav class="my-10 px-2 sm:px-4 py-2.5">
+  <nav class="my-10 px-4 md:px-0 py-2.5">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <NuxtLink
         to="/"

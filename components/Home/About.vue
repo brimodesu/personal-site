@@ -4,7 +4,7 @@
       <img src="~/assets/images/home2.jpeg" alt="" srcset="" />
       <figcaption>
         <h3>david <span>carrera</span></h3>
-        <h4>brimo</h4>
+        <h4>brimo/vurimo</h4>
       </figcaption>
     </figure>
 

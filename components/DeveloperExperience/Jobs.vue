@@ -7,7 +7,7 @@
         {{ job.company }} {{ job.period }}
       </h2>
       <p
-        v-for="(activity, index) of job.activities"
+        v-for="(activity, index) of job.activities[$i18n.locale]"
         :key="index"
         class="my-8 font-thin tracking-[0.20em]"
       >

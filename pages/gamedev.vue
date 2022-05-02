@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="gAme dev expeRience" />
+    <GlobalPageTitle title="gAme dev expeRience" />
     <GameDevExperienceGames />
   </div>
 </template>

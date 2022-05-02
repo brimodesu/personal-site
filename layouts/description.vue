@@ -1,8 +1,8 @@
 <template>
   <div class="w-full">
-    <TopNavBar title="brimo" color="text-site-gold-2"/>
+    <GlobalTopNavBar title="vurimo" color="text-site-gold-2" />
     <NuxtPage />
-    <Footer />
+    <GlobalFooter />
   </div>
 </template>
 <script>

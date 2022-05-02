@@ -1,14 +1,12 @@
 <template>
   <div>
-    <PageTitle title="deVel0per expeRience" />
-    <p class="mt-10 md:w-4/5 tracking-[0.15em] leading-7">
-      {{ $t("developerExperience") }}
-    </p>
+    <GlobalPageTitle title="deVel0per expeRience" />
+    <p
+      class="mt-10 md:w-4/5 tracking-[0.15em] leading-7"
+      v-html="$t('developerExperience')"
+    ></p>
 
     <div class="h-72 my-10">
-      <!-- <div
-        class="h-72 w-72 bg-gradient-to-b from-site-gold-2 rounded-3xl absolute left-2/4"
-      ></div> -->
       <div class="image-container left-[15%] md:left-[30%] w-72">
         <img
           src="~/assets/images/experience/01.png"
@@ -34,7 +32,7 @@
     </div>
 
     <DeveloperExperienceJobs />
-    <PageTitle title="skillZ" />
+    <GlobalPageTitle title="skillZ" />
     <DeveloperExperienceSkills />
   </div>
 </template>

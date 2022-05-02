@@ -1,7 +1,7 @@
 <template>
   <div class="border-site-red border-l-2" >
     <h1
-      class="font-thin font-major-mono-display text-4xl md:text-5xl whitespace-pre-line tracking-[.30em] glitch middle"
+      class="font-thin font-major-mono-display text-3xl md:text-5xl whitespace-pre-line tracking-[.30em] glitch middle"
       v-bind:data-text="title"
     >
       {{ title }}

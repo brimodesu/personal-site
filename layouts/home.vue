@@ -1,8 +1,8 @@
 <template>
   <div class="w-full">
-    <TopNavBar title="start" color="text-site-red" />
+    <GlobalTopNavBar title="start" color="text-site-red" />
     <NuxtPage />
-    <Footer />
+    <GlobalFooter />
   </div>
 </template>
 <script>

@@ -1,25 +1,39 @@
 <template>
-  <div
-    v-for="(game, index) of games"
-    :key="index"
-    class="my-10 space-y-5 flex flex-col"
-  >
-    <h2
-      class="font-major-mono-display text-left text-2xl tracking-[0.20em] opacity-80"
-    >
-      {{ game.title }}
-    </h2>
-    <p class="w-3/5 tracking-[0.20em]">{{ game.description }}</p>
-
-    <img :src="game.screenshots[0]" :alt="game.title" />
-
-    <NuxtLink :to="game.detailSite" target="_blank" class="place-self-end">
-      <button
-        class="h-14 w-56 border border-site-gold-2 text-site-gold-2 hover:text-site-red hover:border-site-red tracking-[0.20em]"
+  <div class="flex flex-col space-y-5 mt-5">
+    <p
+      class="leading-relaxed tracking-[0.10em]"
+      v-html="$t('gamedevItchio')"
+    ></p>
+    <div class="space-y-5">
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/1387132?dark=true"
+        class="w-full"
+        height="167"
+        ><a href="https://brimo.itch.io/flip-switch"
+          >Flip Switch by brimo</a
+        ></iframe
       >
-        DETAILS SITE
-      </button></NuxtLink
-    >
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/609493?dark=true"
+        class="w-full"
+        height="167"
+        ><a href="https://brimo.itch.io/astrocleaner"
+          >AstroCleaner by brimo</a
+        ></iframe
+      >
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/561164?dark=true"
+        class="w-full"
+        height="167"
+        ><a href="https://brimo.itch.io/r3-repair-recycling-robots"
+          >R3: Repair - Recycling - Robots by brimo, kimmkr, AxelNamikaze,
+          JosephDenny128, JoshF</a
+        ></iframe
+      >
+    </div>
   </div>
 </template>
 <script>

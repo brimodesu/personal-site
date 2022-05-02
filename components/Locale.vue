@@ -4,17 +4,17 @@
       v-for="(locale, index) of availableLocales"
       :key="index"
       @click="switchLocale(locale)"
-      class="flex"
+      class="flex "
     >
       <p
-        class="uppercase cursor-pointer"
+        class=" text-lg uppercase cursor-pointer space-x-2"
         :class="{ 'text-site-red': locale === $i18n.locale }"
       >
         {{ locale }}
       </p>
       <div
         v-if="index !== availableLocales.length - 1"
-        class="h-4 border-site-gold-2 border mx-1 self-center"
+        class="h-4 border-site-gold-2 border mx-2 self-center"
       ></div>
     </div>
   </div>
