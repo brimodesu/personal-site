@@ -34,6 +34,8 @@
     <DeveloperExperienceJobs />
     <GlobalPageTitle title="skillZ" />
     <DeveloperExperienceSkills />
+    <GlobalPageTitle title="Resources" />
+    <DeveloperExperienceResources/>
   </div>
 </template>
 <script>
