@@ -4,10 +4,10 @@
       v-for="(locale, index) of availableLocales"
       :key="index"
       @click="switchLocale(locale)"
-      class="flex "
+      class="flex"
     >
       <p
-        class=" text-lg uppercase cursor-pointer space-x-2"
+        class="text-lg uppercase cursor-pointer space-x-2"
         :class="{ 'text-site-red': locale === $i18n.locale }"
       >
         {{ locale }}
@@ -28,7 +28,6 @@ export default {
   },
   methods: {
     switchLocale(locale) {
-      console.log(locale);
       this.$i18n.locale = locale;
     },
   },
