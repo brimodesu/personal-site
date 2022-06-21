@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>David Carrera | Developer Experience</Title>
+    </Head>
     <GlobalPageTitle title="deVel0per expeRience" />
     <p
       class="mt-10 md:w-4/5 tracking-[0.15em] leading-7"
@@ -35,11 +38,12 @@
     <GlobalPageTitle title="skillZ" />
     <DeveloperExperienceSkills />
     <GlobalPageTitle title="Resources" />
-    <DeveloperExperienceResources/>
+    <DeveloperExperienceResources />
   </div>
 </template>
 <script>
 definePageMeta({
+  title: "Developer",
   layout: "description",
 });
 </script>

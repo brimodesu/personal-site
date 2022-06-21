@@ -1,5 +1,10 @@
 <template>
-  <HomeAbout />
+  <div>
+    <Head>
+      <Title>David Carrera | START</Title>
+    </Head>
+    <HomeAbout />
+  </div>
 </template>
 <script>
 export default {
@@ -8,6 +13,8 @@ export default {
   },
   mounted() {},
 };
+</script>
+<script setup>
 definePageMeta({
   layout: "home",
 });

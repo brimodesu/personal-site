@@ -1,9 +1,10 @@
-import VueGtag from "vue-gtag-next";
+import VueGtag from "vue-gtag";
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueGtag, {
-    property: {
-      id: process.env.GTAG,
+    config: {
+      id: "G-1BKG3QWCSS",
     },
+    onReady() {},
   });
 });
