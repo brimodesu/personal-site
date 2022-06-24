@@ -27,11 +27,26 @@ export default defineNuxtConfig({
   ],
   components: ["~/components"],
   plugins: [],
-  buildModules: ["@nuxtjs/tailwindcss", "@intlify/nuxt3"],
+  buildModules: ["@nuxtjs/tailwindcss", "@intlify/nuxt3", "nuxt-seo"],
   intlify: {
     localeDir: "locales",
     vueI18n: {
       locale: "es",
+    },
+  },
+  seo: {
+    baseUrl: "https://brim01.netlify.app/",
+    name: "David Carrera",
+    title: "Desarrollador de Software",
+    keywords: "Guatemala, GameDev, Unity3D, ReactJS",
+    templateTitle: "%name% - %title%",
+    description: "Desarrollador Unity y React Js",
+    canonical: "auto",
+    isForcedTrailingSlash: false,
+    twitter: {
+      site: "@vurimo",
+      creator: "@vurimo",
+      card: "summary",
     },
   },
 });

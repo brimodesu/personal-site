@@ -20,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "@nuxtjs/tailwindcss": "^5.1.2",
+    "nuxt-seo": "^1.6.1",
     "vue-gtag": "^2.0.1"
   }
 }
