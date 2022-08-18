@@ -40,7 +40,7 @@ export default defineNuxtConfig({
     title: "Desarrollador de Software",
     keywords: "Guatemala, GameDev, Unity3D, ReactJS",
     templateTitle: "%name% - %title%",
-    description: "Desarrollador Unity y React Js",
+    description: "Desarrollador Unity y Web",
     canonical: "auto",
     isForcedTrailingSlash: false,
     twitter: {

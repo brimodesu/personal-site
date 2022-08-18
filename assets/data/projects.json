@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Guatemala 5G",
+    "url": "https://guatemala5gthreejs.netlify.app/5G",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660800629/Screen_Shot_2022-08-17_at_23.16.42_nbcd6h.png",
+    "description": "Prototipo integrando modelos 3D y web para informar sobre las nuevas tecnologías.",
+    "tech": ["next.js", "three.js", "tailwind.css", "netlify"],
+    "tag": "micro"
+  },
+  {
+    "name": "OP Wanted Posters",
+    "video": "https://res.cloudinary.com/dm9coohcf/video/upload/v1660367139/mugiwanted480_k6qfky.mov",
+    "url": "https://mugiwaras.netlify.app/",
+    "description": "Proyecto web simple en react, integrando movimiento parallax en una secuencia de paginas(slides) que conforme se navega entre ellas activan animaciones de entrada en las imagenes.",
+    "tech": ["react", "tailwind.css", "fullpage.js", "aos", "netlify", "web"],
+    "tag": "micro"
+  },
+  {
+    "name": "GameDev GT",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660801135/gamedevgt_tkqkug.jpg",
+    "description": "Prototipo para el sitio web de la comunidad de desarrolladores de videojuegos de Guatemala",
+    "tech": ["figma", "nuxt", "strapi", "tailwind.css"],
+    "tag": "micro"
+  }
+]

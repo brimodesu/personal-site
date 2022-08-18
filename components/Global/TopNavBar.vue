@@ -65,7 +65,15 @@
               to="/developer"
               activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
-              >DEVELOPER</NuxtLink
+              >EXPERIENCE</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              to="/portfolio"
+              activeClass="text-site-red"
+              class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
+              >PORTFOLIO</NuxtLink
             >
           </li>
           <!-- <li>
