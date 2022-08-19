@@ -4,7 +4,7 @@
     "url": "https://guatemala5gthreejs.netlify.app/5G",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660800629/Screen_Shot_2022-08-17_at_23.16.42_nbcd6h.png",
     "description": "Prototipo integrando modelos 3D y web para informar sobre las nuevas tecnologías.",
-    "tech": ["next.js", "three.js", "tailwind.css", "netlify"],
+    "tech": ["next.js", "three.js", "tailwind.css", "netlify", "3D"],
     "tag": "micro"
   },
   {

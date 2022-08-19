@@ -33,22 +33,14 @@
         </NuxtLink>
         <div class="text-gray-400">
           <p class="font-thin">tecnologías:</p>
-          <div class="flex flex-wrap justify-left ">
-            <div
-              v-for="(tech, index) of project.tech"
-              :key="index"
-              class="flex"
-            >
-              <p class="md:text-sm font-thin tracking-[0.15em]">{{ tech }}</p>
-              <div
-                v-if="index !== project.tech.length - 1"
-                class="rounded-full bg-gray-400 h-1 w-1 self-center mx-1"
-              ></div>
-            </div>
-          </div>
+          <DotSeparatorList
+            :list="project.tech"
+            :textClasses="'md:text-sm font-thin'"
+            :dotClasses="'mx-1'"
+          />
         </div>
       </div>
-      <div class="order-0 md:order-1">
+      <div class="order-0 md:order-1" v-on:click="viewMedia(project)">
         <img
           v-if="project.image"
           :src="project.image"
@@ -65,6 +57,22 @@
       </div>
     </div>
   </div>
+
+  <div
+    id="modal"
+    class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
+  >
+    <!-- The close button -->
+    <a
+      class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
+      href="javascript:void(0)"
+      onclick="closeModal()"
+      >&times;</a
+    >
+
+    <!-- A big image will be displayed here -->
+    <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
+  </div>
 </template>
 
 <script>
@@ -74,7 +82,12 @@ export default {
     return {};
   },
   created() {
-    console.log(this.projects);
+    //console.log(this.projects);
+  },
+  methods: {
+    viewMedia: function (event) {
+      console.log(event);
+    },
   },
 };
 </script>

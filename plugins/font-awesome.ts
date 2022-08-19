@@ -1,6 +1,6 @@
 import App from "@/app.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fas, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { fas, faDownload, faLink } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faTwitter,
@@ -17,7 +17,8 @@ library.add(
   faInstagram,
   faItchIo,
   faGithub,
-  faLinkedin
+  faLinkedin,
+  faLink
 );
 
 export default FontAwesomeIcon;

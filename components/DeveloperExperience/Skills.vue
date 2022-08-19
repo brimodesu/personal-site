@@ -1,13 +1,9 @@
 <template>
-  <div class="flex flex-wrap justify-center my-10 max-w-3xl mx-auto">
-    <div v-for="(skill, index) of skills" :key="index" class="flex my-2">
-      <p class="md:text-lg tracking-[0.15em]">{{ skill }}</p>
-      <div
-        v-if="index !== skills.length - 1"
-        class="rounded-full bg-site-red h-1 w-1 self-center mx-5"
-      ></div>
-    </div>
-  </div>
+  <DotSeparatorList
+    :list="skills"
+    :listClasses="'justify-center my-10 max-w-3xl mx-auto'"
+    :dotClasses="'mx-5'"
+  />
 </template>
 
 <script>
