@@ -7,6 +7,7 @@
   "JavasScript",
   "NodeJS",
   "React",
+  "ReactNative",
   "TypeScript",
   "Vue",
   "Nuxt",
@@ -14,7 +15,10 @@
   "Angular",
   "PHP",
   "Java",
+  "WordPress",
   "Android",
   "Flutter",
-  "Figma"
+  "Figma",
+  "UI",
+  "UX"
 ]
