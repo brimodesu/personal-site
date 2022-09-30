@@ -4,7 +4,7 @@
   >
     <p
       class="text-xl tracking-[.20em] font-light"
-      v-html="$t('microProjects')"
+      v-html="$t('publicProjects')"
     ></p>
   </h2>
 

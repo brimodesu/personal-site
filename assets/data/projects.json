@@ -18,8 +18,16 @@
   {
     "name": "GameDev GT",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660801135/gamedevgt_tkqkug.jpg",
-    "description": "Prototipo para el sitio web de la comunidad de desarrolladores de videojuegos de Guatemala",
+    "description": "Prototipo para el sitio web de la comunidad de desarrolladores de videojuegos de Guatemala.",
     "tech": ["figma", "nuxt", "strapi", "tailwind.css"],
     "tag": "micro"
+  },
+  {
+    "name": "IFPI Latina",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664566178/ifpisite_xfumxu.png",
+    "url":"https://ifpilatina.org/",
+    "description": "Sitio web para IFPI en América Latina.",
+    "tech": ["figma", "nuxt", "strapi", "tailwind.css", "node"],
+    "tag": "public"
   }
 ]
