@@ -25,7 +25,7 @@
           class="text-site-red h-5 w-5 hover:text-site-gold"
         />
       </NuxtLink>
-      <NuxtLink to="https://gt.linkedin.com/" target="_blank">
+      <NuxtLink to="https://www.linkedin.com/in/vurimo/" target="_blank">
         <FontAwesomeIcon
           icon="linkedin"
           type="fab"
