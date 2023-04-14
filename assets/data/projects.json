@@ -4,7 +4,13 @@
     "url": "https://guatemala5gthreejs.netlify.app/5G",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660800629/Screen_Shot_2022-08-17_at_23.16.42_nbcd6h.png",
     "description": "Prototipo integrando modelos 3D y web para informar sobre las nuevas tecnologías.",
-    "tech": ["next.js", "three.js", "tailwind.css", "netlify", "3D"],
+    "tech": [
+      "next.js",
+      "three.js",
+      "tailwind.css",
+      "netlify",
+      "3D"
+    ],
     "tag": "micro"
   },
   {
@@ -12,22 +18,53 @@
     "video": "https://res.cloudinary.com/dm9coohcf/video/upload/v1660367139/mugiwanted480_k6qfky.mov",
     "url": "https://mugiwaras.netlify.app/",
     "description": "Proyecto web simple en react, integrando movimiento parallax en una secuencia de paginas(slides) que conforme se navega entre ellas activan animaciones de entrada en las imagenes.",
-    "tech": ["react", "tailwind.css", "fullpage.js", "aos", "netlify", "web"],
+    "tech": [
+      "react",
+      "tailwind.css",
+      "fullpage.js",
+      "aos",
+      "netlify",
+      "web"
+    ],
     "tag": "micro"
   },
   {
     "name": "GameDev GT",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1660801135/gamedevgt_tkqkug.jpg",
     "description": "Prototipo para el sitio web de la comunidad de desarrolladores de videojuegos de Guatemala.",
-    "tech": ["figma", "nuxt", "strapi", "tailwind.css"],
+    "tech": [
+      "figma",
+      "nuxt",
+      "strapi",
+      "tailwind.css"
+    ],
     "tag": "micro"
+  },
+  {
+    "name": "FUDI - APP",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681490380/FUDI-PROTO_hdm4ny.png",
+    "description": "Aplicación móvil para la gestión y capacitación de beneficiarios para los proyectos realizados por la Fundación FUDI en Guatemala.",
+    "tech": [
+      "React",
+      "React Native",
+      "Expo",
+      "JavasScript",
+      "TypeScript"
+    ],
+    "tag": "public"
   },
   {
     "name": "IFPI Latina",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664566178/ifpisite_xfumxu.png",
     "url": "https://ifpilatina.org/",
     "description": "Sitio web para IFPI en América Latina.",
-    "tech": ["figma", "nuxt", "strapi", "tailwind.css", "node"],
+    "tech": [
+      "figma",
+      "nuxt",
+      "strapi",
+      "tailwind.css",
+      "node"
+    ],
     "tag": "public"
   },
   {
@@ -35,7 +72,9 @@
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664567246/qusoftsite_tjufv1.png",
     "url": "https://qusoftgroup.com/",
     "description": "Adaptación de plantilla de WordPress a solicitud del cliente.",
-    "tech": ["WordPress"],
+    "tech": [
+      "WordPress"
+    ],
     "tag": "public"
   }
 ]

@@ -47,7 +47,7 @@
         <img
           v-if="project.image"
           :src="project.image"
-          class="h-72 object-cover rounded shadow"
+          class="h-72 object-cover rounded shadow mx-auto"
           alt=""
         />
         <video
@@ -61,37 +61,45 @@
     </div>
   </div>
 
-  <div
-    id="modal"
-    class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
-  >
-    <!-- The close button -->
-    <a
-      class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
-      href="javascript:void(0)"
-      onclick="closeModal()"
-      >&times;</a
+    <div v-if="mediaModalOpen"
+         id="modal"
+         class="fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
     >
+        <!-- The close button -->
+        <div
+                class="fixed z-90 top-6 right-8 text-white text-5xl font-bold hover:cursor-pointer"
+                @click="closeModal()"
+        >&times;</div
+        >
 
-    <!-- A big image will be displayed here -->
-    <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
-  </div>
+        <!-- A big image will be displayed here -->
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" :src="selectedProject.image" />
+    </div>
 </template>
 
 <script>
 export default {
-  props: ["projects"],
-  data() {
-    return {};
-  },
-  created() {
-    //console.log(this.projects);
-  },
-  methods: {
-    viewMedia: function (event) {
-      console.log(event);
+    props: ["projects"],
+    data() {
+        return {
+            mediaModalOpen: false,
+            selectedProject: {}
+        };
     },
-  },
+    created() {
+        //console.log(this.projects);
+    },
+    methods: {
+        viewMedia: function (event) {
+            console.log(event)
+            this.selectedProject = event
+            this.mediaModalOpen = true
+        },
+        closeModal: function() {
+            console.log("close?")
+            this.mediaModalOpen = false
+        }
+    },
 };
 </script>
 
