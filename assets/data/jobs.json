@@ -34,7 +34,7 @@
     "period": "2020-2022",
     "activities": {
       "es": [
-        "ISOFT - Soporte para plicación para la venta de bienes a distribuidores de empresa de telefonía en paises de centroamerica",
+        "iSOFT - Soporte de aplicación móvil para la venta de bienes a distribuidores de empresa de telefonía en paises de centroamerica",
         "MUSICARTES - Desarollo/Soporte en sistema de gestion y contable",
         "UPA - Mantenimiento en contenido en  chatbot de Facebook Messenger",
         "IFPI Latinoamérica - Desarrollo de sitio web + Soporte en publicacion de contenido"
@@ -46,5 +46,13 @@
         "IFPI Latin America - Website development + Content publication support"
       ]
     }
+  },{
+  "company": "",
+  "period": "2023",
+  "activities": {
+    "es": [
+      "iSOFT, FUDI - Prototipado y desarrollo para sistemas web y móvil."
+    ]
   }
+}
 ]
