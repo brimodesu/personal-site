@@ -68,15 +68,17 @@
       "node"
     ],
     "tag": "public"
-  },{
-  "name": "SIDRA",
-  "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681504986/SIDRA-APP_qnslfj.png",
-  "description": "Actualización Y soporte de aplicación móvil para la venta de bienes a kioscos en centroamérica.",
-  "tech": [
-    "Unity3D",
-    "Android"
-  ]
-},
+  },
+  {
+    "name": "SIDRA",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681504986/SIDRA-APP_qnslfj.png",
+    "description": "Actualización Y soporte de aplicación móvil para la venta de bienes a kioscos en centroamérica.",
+    "tech": [
+      "Unity3D",
+      "Android"
+    ],
+    "tag": "public"
+  },
   {
     "name": "QUSOFT GROUP",
     "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664567246/qusoftsite_tjufv1.png",
