@@ -20,8 +20,8 @@ export default defineNuxtConfig({
     ],
     plugins: [],
     modules: [
-        "@nuxtjs/tailwindcss",
         '@nuxtjs/i18n',
+        '@nuxtjs/google-fonts'
     ],
     extends:[
         'nuxt-seo-kit'
@@ -53,4 +53,11 @@ export default defineNuxtConfig({
             strictMessage: false,
         }
     },
+    googleFonts:{
+        prefetch:true,
+        families:{
+            Roboto:  true,
+            'Major+Mono+Display':true
+        }
+    }
 });
