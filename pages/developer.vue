@@ -41,9 +41,3 @@
     <DeveloperExperienceResources />
   </div>
 </template>
-<script>
-definePageMeta({
-  title: "Developer",
-  layout: "description",
-});
-</script>

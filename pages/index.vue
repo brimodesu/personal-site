@@ -6,6 +6,7 @@
     <HomeAbout />
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -13,9 +14,4 @@ export default {
   },
   mounted() {},
 };
-</script>
-<script setup>
-definePageMeta({
-  layout: "home",
-});
 </script>

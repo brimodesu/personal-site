@@ -9,12 +9,6 @@
   </div>
 </template>
 
-<script setup>
-definePageMeta({
-  layout: "description",
-});
-</script>
-
 <script>
 import projects from "@/assets/data/projects.json";
 export default {

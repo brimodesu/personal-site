@@ -8,8 +8,3 @@
   </div>
 </template>
 
-<script setup>
-definePageMeta({
-  layout: "description",
-});
-</script>
