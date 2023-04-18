@@ -49,7 +49,6 @@ export default defineNuxtConfig({
         lazy: true,
         langDir: 'locales/',
         defaultLocale: 'es',
-        warnHtmlMessage: false,
         precompile: {
             strictMessage: false,
         }

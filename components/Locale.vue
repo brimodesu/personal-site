@@ -7,7 +7,7 @@
                 class="flex"
         >
             <p
-                    class="text-lg uppercase cursor-pointer space-x-2"
+                    class="text-xl uppercase cursor-pointer mx-2"
                     :class="{ 'text-site-red': locale.code === selectedLocale }"
             >
                 {{ locale.code }}
@@ -25,17 +25,3 @@ const {locales, locale: selectedLocale, setLocale} = useI18n();
 const switchLocalePath = useSwitchLocalePath()
 </script>
 
-<script>
-export default {
-    computed: {
-        availableLocales() {
-            return this.$i18n.availableLocales;
-        },
-    },
-    methods: {
-        switchLocale(locale) {
-            this.$i18n.locale = locale;
-        },
-    },
-};
-</script>
