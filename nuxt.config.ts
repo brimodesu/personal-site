@@ -25,17 +25,29 @@ export default defineNuxtConfig({
         "@/assets/css/slider.css",
         "@/assets/css/index.css",
     ],
-    components: ["~/components"],
     plugins: [],
     modules: [
         "@nuxtjs/tailwindcss",
         '@nuxtjs/i18n',
     ],
+    extends:[
+        'nuxt-seo-kit'
+    ],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
     i18n: {
         locales: [
             {
                 code: 'es',
                 file: 'es-ES.js'
+            },
+            {
+                code: 'en',
+                file: 'en-EN.js'
             }
         ],
         lazy: true,
@@ -43,8 +55,13 @@ export default defineNuxtConfig({
         defaultLocale: 'es',
         warnHtmlMessage: false,
         precompile: {
-            strictMessage:false,
-            escapeHtml:true
+            strictMessage: false,
         }
+    },
+    public:{
+        siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://brimo.quest',
+        siteName: 'David Carrera',
+        siteDescription: 'Game Developer',
+        language: 'es-ES'
     }
 });
