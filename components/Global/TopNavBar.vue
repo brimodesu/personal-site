@@ -2,7 +2,7 @@
   <nav class="my-10 px-4 md:px-0 py-2.5">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <NuxtLink
-        to="/"
+        :to="localePath('/')"
         class="font-major-mono-display text-3xl leading-normal"
         :class="color"
         >{{ title }}</NuxtLink
@@ -53,7 +53,7 @@
         >
           <li>
             <NuxtLink
-              to="/gamedev"
+              :to="localePath('gamedev')"
               activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
             >
@@ -62,7 +62,7 @@
           </li>
           <li>
             <NuxtLink
-              to="/developer"
+                    :to="localePath('developer')"
               activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
               >EXPERIENCE</NuxtLink
@@ -70,7 +70,7 @@
           </li>
           <li>
             <NuxtLink
-              to="/portfolio"
+              :to="localePath('portfolio')"
               activeClass="text-site-red"
               class="block py-2 pr-4 pl-3 md:p-0 hover:text-site-gold"
               >PORTFOLIO</NuxtLink
@@ -88,6 +88,11 @@
     </div>
   </nav>
 </template>
+
+<script setup>
+const localePath = useLocalePath();
+</script>
+
 <script>
 export default {
   props: {
