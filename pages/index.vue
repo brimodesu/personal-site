@@ -1,8 +1,5 @@
 <template>
     <div>
-        <Head>
-            <Title>David Carrera | START</Title>
-        </Head>
         <HomeAbout/>
     </div>
 </template>
@@ -10,6 +7,8 @@
 <script setup>
 definePageMeta({
     layout: "home",
+    title: 'pages.title.home',
+    description:'Game and FullStack Developer'
 });
 </script>
 

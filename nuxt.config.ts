@@ -4,19 +4,12 @@ import {defineNuxtConfig} from "nuxt/config";
 export default defineNuxtConfig({
     runtimeConfig: {
         GTAG: "",
-    },
-    meta: {
-        title: "David Carrera",
-        link: [
-            {
-                rel: "stylesheet",
-                href: "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&display=swap",
-            },
-            {
-                rel: "stylesheet",
-                href: "https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap",
-            },
-        ],
+        public:{
+            siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://brimo.quest',
+            siteName: 'brimo.quest',
+            siteDescription: 'Game Developer',
+            language: 'es-ES'
+        }
     },
     css: [
         "@fortawesome/fontawesome-svg-core/styles.css",
@@ -43,13 +36,16 @@ export default defineNuxtConfig({
         locales: [
             {
                 code: 'es',
+                iso: 'es-ES',
                 file: 'es-ES.js'
             },
             {
                 code: 'en',
-                file: 'en-EN.js'
+                iso: 'en-US',
+                file: 'en-US.js'
             }
         ],
+        baseUrl:'https://brimo.quest',
         lazy: true,
         langDir: 'locales/',
         defaultLocale: 'es',
@@ -58,10 +54,4 @@ export default defineNuxtConfig({
             strictMessage: false,
         }
     },
-    public:{
-        siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://brimo.quest',
-        siteName: 'David Carrera',
-        siteDescription: 'Game Developer',
-        language: 'es-ES'
-    }
 });

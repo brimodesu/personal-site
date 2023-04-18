@@ -1,8 +1,5 @@
 <template>
     <div>
-        <Head>
-            <Title>David Carrera | PORTFOLIO</Title>
-        </Head>
         <GlobalPageTitle title="portfolio"/>
         <PortfolioPublic :projects="publicProjects"/>
         <PortfolioMicro :projects="microProjects"/>
@@ -12,6 +9,7 @@
 <script setup>
 definePageMeta({
     layout: "description",
+    title:'pages.title.portfolio'
 });
 </script>
 

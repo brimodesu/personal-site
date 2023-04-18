@@ -1,8 +1,5 @@
 <template>
     <div>
-        <Head>
-            <Title>David Carrera | GameDev</Title>
-        </Head>
         <GlobalPageTitle title="gAme dev expeRience"/>
         <GameDevExperienceGames/>
     </div>
@@ -11,5 +8,6 @@
 <script setup>
 definePageMeta({
     layout: "description",
+    title: 'pages.title.gamedev'
 });
 </script>
