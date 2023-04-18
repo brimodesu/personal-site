@@ -42,7 +42,7 @@
   },
   {
     "name": "FUDI - APP",
-    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681490380/FUDI-PROTO_hdm4ny.png",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681847071/brimo.quest/portfolio/FUDI-PROTO_tqkaus.jpg",
     "description": "Aplicación móvil para la gestión y capacitación de beneficiarios para los proyectos realizados por la Fundación FUDI en Guatemala.",
     "tech": [
       "Figma",
@@ -57,7 +57,7 @@
   },
   {
     "name": "IFPI Latina",
-    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664566178/ifpisite_xfumxu.png",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681847090/brimo.quest/portfolio/ifpisite_you22a.png",
     "url": "https://ifpilatina.org/",
     "description": "Sitio web para IFPI en América Latina.",
     "tech": [
@@ -71,7 +71,7 @@
   },
   {
     "name": "SIDRA",
-    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681504986/SIDRA-APP_qnslfj.png",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681847065/brimo.quest/portfolio/SIDRA-APP_rtzbg9.png",
     "description": "Actualización Y soporte de aplicación móvil para la venta de bienes a kioscos en centroamérica.",
     "tech": [
       "Unity3D",
@@ -81,7 +81,7 @@
   },
   {
     "name": "QUSOFT GROUP",
-    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1664567246/qusoftsite_tjufv1.png",
+    "image": "https://res.cloudinary.com/dm9coohcf/image/upload/v1681847123/brimo.quest/portfolio/qusoftsite_qc02zz.png",
     "url": "https://qusoftgroup.com/",
     "description": "Adaptación de plantilla de WordPress a solicitud del cliente.",
     "tech": [
