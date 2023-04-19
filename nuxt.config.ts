@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         GTAG: "",
         public:{
-            siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://brimo.quest',
+            siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'brimo.quest',
             siteName: 'brimo.quest',
             siteDescription: 'Game Developer',
             language: 'es-ES'
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
                 file: 'en-US.js'
             }
         ],
-        baseUrl:'https://brimo.quest',
+        baseUrl:'https://www.brimo.quest',
         lazy: true,
         langDir: 'locales/',
         defaultLocale: 'es',
@@ -59,5 +59,9 @@ export default defineNuxtConfig({
             Roboto:  true,
             'Major+Mono+Display':true
         }
+    },
+    sitemap:{
+        hostname:'https://www.brimo.quest',
+        exclude: ['https://brimo.itch.io']
     }
 });
