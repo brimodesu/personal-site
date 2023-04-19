@@ -30,7 +30,6 @@
                 >
                     <FontAwesomeIcon
                             icon="link"
-                            type="fas"
                             class="text-site-red hover:text-site-gold"
                     />
                 </NuxtLink>
@@ -69,11 +68,12 @@
         <div
                 class="fixed z-90 top-6 right-8 text-white text-5xl font-bold hover:cursor-pointer"
                 @click="closeModal()"
-        >&times;</div
+        >&times;
+        </div
         >
 
         <!-- A big image will be displayed here -->
-        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" :src="selectedProject.image" />
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" :src="selectedProject.image"/>
     </div>
 </template>
 
@@ -95,7 +95,7 @@ export default {
             this.selectedProject = event
             this.mediaModalOpen = true
         },
-        closeModal: function() {
+        closeModal: function () {
             console.log("close?")
             this.mediaModalOpen = false
         }

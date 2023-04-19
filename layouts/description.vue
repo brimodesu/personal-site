@@ -25,7 +25,6 @@ const head = useLocaleHead({
     identifierAttribute: 'id',
     addSeoAttributes: true
 })
-console.log(route.meta.title)
 const title = computed(() => t(route.meta.title ?? 'TBD'))
 </script>
 

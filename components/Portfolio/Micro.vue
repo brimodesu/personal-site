@@ -30,7 +30,7 @@
         >
           <FontAwesomeIcon
             icon="link"
-            type="fas"
+
             class="text-site-red hover:text-site-gold"
           />
         </NuxtLink>
