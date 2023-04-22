@@ -8,6 +8,7 @@
 <script setup>
 definePageMeta({
     layout: "description",
-    title: 'pages.title.gamedev'
+    title: 'pages.title.gamedev',
+    description: 'GameDev from Guatemala'
 });
 </script>
