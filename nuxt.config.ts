@@ -61,7 +61,7 @@ export default defineNuxtConfig({
         }
     },
     sitemap:{
-        hostname:'https://www.brimo.quest',
+        hostname:'https://brimo.quest',
         exclude: ['https://brimo.itch.io']
     }
 });
