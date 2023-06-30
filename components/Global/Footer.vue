@@ -10,10 +10,10 @@
             <NuxtLink to="https://github.com/brimodesu" target="_blank">
                 <FontAwesomeIcon icon="fab fa-github" class="text-site-red h-6 w-6 hover:text-site-gold"/>
             </NuxtLink>
-            <NuxtLink to="https://twitter.com/brimodesu" target="_blank">
+            <NuxtLink to="https://twitter.com/brimoquest" target="_blank">
                 <FontAwesomeIcon icon="fab fa-twitter" class="text-site-red h-6 w-6 hover:text-site-gold"/>
             </NuxtLink>
-            <NuxtLink to="https://www.linkedin.com/in/vurimo/" target="_blank">
+            <NuxtLink to="https://www.linkedin.com/in/brimoquest/" target="_blank">
                 <FontAwesomeIcon title="Linkedin" icon="fab fa-linkedin" class="text-site-red h-6 w-6 hover:text-site-gold"/>
             </NuxtLink>
         </div>
